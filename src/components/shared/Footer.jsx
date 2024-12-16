@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../../../public/assets/images/logo.png";
+import logo from "../../../public/images/logo.png";
 import {
   FaFacebookF,
   FaInstagram,
