@@ -1,0 +1,103 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: "#f5f9eb",
+          100: "#e1eec3",
+          200: "#cde39b",
+          300: "#b8d873",
+          400: "#64748B",
+          500: "#a4cd4b",
+          600: "#8bb432",
+          700: "#9CC93B", // main for text and bg
+          800: "#8BB82D", // hover for text and bg
+          900: "#2e3c11",
+          950: "#AFCB08", // bg color
+        },
+        secondary: {
+          50: "#f0f2f5",
+          100: "#d1d8e0",
+          200: "#b3becc",
+          300: "#94a4b7",
+          400: "#768aa3",
+          500: "#5c7089",
+          600: "#48576b",
+          700: "#3C4959", // main
+          800: "#333e4c", // hover
+          900: "#1f252e",
+        },
+        custom: {
+          50: "#E6F6FE",
+          100: "#F6FDCE",
+          150:"#EBF7FF"   ,
+          400:"#FFF2F0",
+          500:'#AECB08'       ,
+          600:"#1B3C74",
+          900: "#00457C", 
+          950: "#011632", 
+        },
+      },
+      fontFamily: {
+        arabic: [
+          "Inter",
+          "Cairo",
+          "ui-sans-serif",
+          "system-ui",
+          "-apple-system",
+          "system-ui",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "Noto Sans",
+          "sans-serif",
+          "Apple Color Emoji",
+          "Segoe UI Emoji",
+          "Segoe UI Symbol",
+          "Noto Color Emoji",
+        ],
+      },
+    },
+    fontFamily: {
+      body: [
+        "Inter",
+        "ui-sans-serif",
+        "system-ui",
+        "-apple-system",
+        "system-ui",
+        "Segoe UI",
+        "Roboto",
+        "Helvetica Neue",
+        "Arial",
+        "Noto Sans",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji",
+        "Cairo",
+      ],
+      sans: [
+        "Inter",
+        "ui-sans-serif",
+        "system-ui",
+        "-apple-system",
+        "system-ui",
+        "Segoe UI",
+        "Roboto",
+        "Helvetica Neue",
+        "Arial",
+        "Noto Sans",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji",
+      ],
+    },
+  },
+  plugins: [],
+};
