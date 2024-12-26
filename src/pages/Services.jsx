@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";  // Import the hook
 import Heading from "../shared/components/HeadingTitle.jsx";
 import HealthcareProfessionals from "../components/services/HealthCare.jsx";
 import MedicalInstitutions from "../components/services/MedicalInstitutions.jsx";
@@ -8,25 +9,23 @@ import Navbar from "../components/shared/Navbar.jsx";
 import Footer from "../components/shared/Footer.jsx";
 
 export default function Services() {
+  const { t } = useTranslation("service"); // Using the translation hook
+
   return (
     <>
       <Navbar />
       <Heading
-        title={"Services That Connect"}
-        subtitle={
-          "We offer tailored solutions for healthcare professionals and German medical institutions."
-        }
+        title={t("hero.title")}
+        subtitle={t("hero.subtitle")}
       />
       <HealthcareProfessionals />
       <MedicalInstitutions />
       <WhyChooseSA />
 
       <BeforeFooter
-        title={"Your Journey Starts Here"}
-        description={
-          "Find the right support for your needs – whether as a professional or an institution."
-        }
-        buttonText={"Check Opportunities"}
+        title={t("exploreOpportunities.title")}
+        description={t("exploreOpportunities.content")}
+        buttonText={t("exploreOpportunities.ctaButton")}
         buttonLink={"/"}
         imageSrc={"/images/Group 1000001049.png"}
       />

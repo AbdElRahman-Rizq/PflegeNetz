@@ -8,9 +8,12 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import vectorImg from "/assets/images/vector.png";
+import { useTranslation } from 'react-i18next';
+
 const HeroSection = () => {
+  const { t } = useTranslation('home');
   return (
-    <section className=" bg-white relative overflow-hidden mb-10 md:mb-0">
+    <section className=" bg-white relative overflow-hidden mb-10 md:mb-0 ">
       <div className="container mx-auto px-6 flex flex-col-reverse md:flex-row items-center justify-between ">
         <div className="flex flex-col justify-start">
           <div>
@@ -21,10 +24,10 @@ const HeroSection = () => {
               className="md:w-1/2 w-full text-center md:text-left"
             >
               <h1 className="text-3xl md:text-6xl font-bold text-gray-900 leading-tight">
-                Professionals. <br />
-                Opportunities. <br />
+                {t('hero.Ftitle')}
+                <br />
                 <span className="relative">
-                  Excellence.
+                  {t('hero.title')}
                   <img
                     src={vectorImg}
                     alt=""
@@ -34,9 +37,7 @@ const HeroSection = () => {
               </h1>
               <div className="  md:w-[600px] w-[350px]  ">
                 <p className="text-gray-600 mt-4 text-lg w-full">
-                  We connect healthcare professionals from around the world with{" "}
-                  <br></br>
-                  Germany's top medical.
+                  {t('hero.subtitle')}
                 </p>
               </div>
               <motion.button
@@ -44,7 +45,7 @@ const HeroSection = () => {
                 whileTap={{ scale: 0.95 }}
                 className="mt-6 bg-lime-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-lime-600 focus:outline-none"
               >
-                Explore Now
+                {t('hero.cta')}
               </motion.button>
             </motion.div>
           </div>
@@ -52,7 +53,7 @@ const HeroSection = () => {
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.6 }}
+              transition={{ duration: 3, delay: 0.6 }}
               className="mt-10 hidden md:flex items-center space-x-4"
             >
               <div className="container  mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
@@ -106,7 +107,7 @@ const HeroSection = () => {
               animate={{ rotate: 360 }}
               transition={{
                 repeat: Infinity,
-                duration: 10,
+                duration: 100,
                 ease: "linear",
               }}
               className="absolute w-[36rem] h-[36rem] border-dashed border-8 border-blue-300 rounded-full flex justify-center items-center"
@@ -137,7 +138,7 @@ const HeroSection = () => {
               animate={{ rotate: -360 }}
               transition={{
                 repeat: Infinity,
-                duration: 14,
+                duration: 100,
                 ease: "linear",
               }}
               className="absolute w-[28rem] h-[28rem] border-dashed border-8 border-green-300 rounded-full"

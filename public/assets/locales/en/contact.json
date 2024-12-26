@@ -1,0 +1,46 @@
+{
+    "contactPage": {
+      "heroSection": {
+        "title": "We’re Here for You",
+        "subtitle": "Whether you have questions, need support, or want to start a partnership – just reach out.",
+        "ctaButton": "Open Contact Form"
+      },
+      "contactFormSection": {
+        "title": "Write to Us",
+        "fields": {
+          "firstName": "First Name",
+          "lastName": "Last Name",
+          "email": "Email Address",
+          "phone": "Phone Number",
+          "subject": "Subject",
+          "message": "Message"
+        },
+        "ctaButton": "Send Message",
+        "placeholders": {
+          "firstName": "Enter First Name",
+          "lastName": "Enter Last Name",
+          "email": "your@email.com",
+          "phone": "Phone Number",
+          "subject": "Enter Your Subject",
+          "message": "Enter Your Message"
+        }
+      },
+      "directContactInformationSection": {
+        "title": "Contact Us Directly",
+        "content": {
+          "phone": "+49 1626 284662",
+          "email": "info@sanetz.de",
+          "address": "1441 Morris Ave, Union, NJ 07083"
+        }
+      },
+      "officeHoursSection": {
+        "title": "Our Office Hours",
+        "content": "Monday to Friday: 9:00 AM – 6:00 PM (CET)"
+      },
+      "mapSection": {
+        "title": "Find Us",
+        "content": "Check our location on the map for easier access."
+      }
+    }
+  }
+  

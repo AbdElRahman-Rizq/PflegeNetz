@@ -8,7 +8,7 @@ import FAQ from "./components/homePage/FAQ";
 import HeroSection from "./components/HeroSection";
 import { WhatWeOffer } from "./components/homePage/WhatWeOffer";
 import { CallToAction } from "./components/homePage/CallToAction";
-import { FutureStart, NumbersThatSpeak } from "./components";
+import { CookiesPopup, FutureStart, NumbersThatSpeak } from "./components";
 
 function App() {
   return (
@@ -17,14 +17,15 @@ function App() {
 
       <HeroSection />
       <WhatWeOffer />
-      <CallToAction/>
+      <CallToAction />
       <NumbersThatSpeak />
       <WhyChooseSection />
       <TestimonialsSection />
       <ImpactSection />
-      <FutureStart/>
+      <FutureStart />
       <Welcoming />
       <FAQ />
+      <CookiesPopup />
       <Footer />
     </>
   );

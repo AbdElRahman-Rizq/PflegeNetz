@@ -14,4 +14,5 @@ export * from './homePage/CallToAction';
 export * from './homePage/WhatWeOffer';
 export * from './homePage/Welcoming';
 export * from './homePage/NumbersThatSpeak';
+export * from './shared/CookiesPopup';
 

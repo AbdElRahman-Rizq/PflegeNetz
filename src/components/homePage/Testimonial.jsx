@@ -1,6 +1,8 @@
+import React from "react";
+
 const Testimonial = ({ image, name, location, subtitle }) => {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+    <div className="bg-white  p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
       <div className="flex gap-4 mb-4">
         <img
           src={`/assets/images/${image}.png`}

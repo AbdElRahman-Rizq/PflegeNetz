@@ -1,0 +1,45 @@
+{
+  "contactPage": {
+    "heroSection": {
+      "title": "Wir sind für Sie da",
+      "subtitle": "Egal, ob Sie Fragen haben, Unterstützung benötigen oder eine Partnerschaft starten möchten – kontaktieren Sie uns einfach.",
+      "ctaButton": "Kontaktformular öffnen"
+    },
+    "contactFormSection": {
+      "title": "Schreiben Sie uns",
+      "fields": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail-Adresse",
+        "phone": "Telefonnummer",
+        "subject": "Betreff",
+        "message": "Nachricht"
+      },
+      "ctaButton": "Nachricht senden",
+      "placeholders": {
+        "firstName": "Vornamen ein",
+        "lastName": "Nachnamen ein",
+        "email": "deine@email.de",
+        "phone": "Telefonnummer",
+        "subject": "Geben Sie Ihren Betreff ein",
+        "message": "Geben Sie Ihre Nachricht ein"
+      }
+    },
+    "directContactInformationSection": {
+      "title": "Kontaktieren Sie uns direkt",
+      "content": {
+        "phone": "+49 1626 284662",
+        "email": "info@sanetz.de",
+        "address": "1441 Morris Ave, Union, NJ 07083"
+      }
+    },
+    "officeHoursSection": {
+      "title": "Unsere Bürozeiten",
+      "content": "Montag bis Freitag: 09:00 – 18:00 Uhr (MEZ)"
+    },
+    "mapSection": {
+      "title": "Finden Sie uns",
+      "content": "Sehen Sie sich unseren Standort auf der Karte an, um uns leichter zu finden."
+    }
+  }
+}

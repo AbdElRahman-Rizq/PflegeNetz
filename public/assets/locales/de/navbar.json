@@ -1,0 +1,16 @@
+{
+    "navbar": {
+        "home": "Startseite",
+        "about": "Über uns",
+        "services": "Dienstleistungen",
+        "forInstitution": "Für Institutionen",
+        "forApplicants": "Für Bewerber",
+        "contact": "Kontakt"
+    },
+    "footer": {
+        "joinTeam": "Schließen Sie sich unserem Team an",
+        "description": "Loema",
+        "applyButton": "Jetzt buchen",
+        "contactUs": "Kontaktieren Sie uns"
+    }
+}

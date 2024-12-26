@@ -1,0 +1,80 @@
+{
+  "applicant": {
+    "hero_section": {
+      "title": "Ihr Weg in Deutschlands Gesundheitswesen",
+      "doctor_title": "Hautspezialist",
+      "subtitle": "SA netz unterstützt Sie auf jedem Schritt Ihrer Reise – von der Anerkennung bis zur Integration.",
+      "cta": "Jetzt starten",
+      "doctor_cta": "Termin vereinbaren"
+    },
+    "services_section": {
+      "title": "Was wir für Sie tun",
+      "content": "Wir bieten umfassende Unterstützung, damit Sie Ihre medizinische Karriere in Deutschland starten können.",
+      "key_services": [
+        {
+          "title": "Berufsanerkennung",
+          "description": "Wir helfen Ihnen, Ihre medizinischen Qualifikationen anerkennen zu lassen."
+        },
+        {
+          "title": "Deutschkurse",
+          "description": "Spezialisierte Sprachkurse, um Ihre Fachsprache zu perfektionieren."
+        },
+        {
+          "title": "Jobvermittlung",
+          "description": "Zugang zu attraktiven Stellen in Krankenhäusern, Kliniken und Pflegeeinrichtungen."
+        },
+        {
+          "title": "Relocation-Service",
+          "description": "Unterstützung bei Visa-Anträgen, Unterkunft und kultureller Integration."
+        }
+      ],
+      "cta": "Mehr erfahren"
+    },
+    "benefits_section": {
+      "title": "Ihre Vorteile mit SA netz",
+      "subtitle": "Wir machen den Weg in Deutschlands Gesundheitswesen einfacher und sicherer.",
+      "points": [
+        "Individuelle Unterstützung: Maßgeschneiderte Lösungen für Ihre beruflichen Ziele.",
+        "Globales Netzwerk: Zugang zu renommierten deutschen Gesundheitseinrichtungen.",
+        "Komplette Betreuung: Von der Bewerbung bis zur Ankunft – wir sind an Ihrer Seite."
+      ],
+      "cta": "Bewerben Sie sich jetzt"
+    },
+    "how_it_works_section": {
+      "title": "So funktioniert es",
+      "content": "Der Prozess mit SA netz ist einfach und effizient:",
+      "steps": [
+        {
+          "title": "Erstgespräch",
+          "description": "Wir besprechen Ihre Ziele und prüfen Ihre Qualifikationen."
+        },
+        {
+          "title": "Bewerbung",
+          "description": "Wir unterstützen Sie bei der Erstellung aller notwendigen Unterlagen."
+        },
+        {
+          "title": "Jobvermittlung",
+          "description": "Sie erhalten Zugang zu Stellenangeboten, die Ihren Fähigkeiten entsprechen."
+        },
+        {
+          "title": "Integration",
+          "description": "Wir begleiten Sie bei Ihrer Ankunft in Deutschland und unterstützen Ihre Eingliederung."
+        }
+      ]
+    },
+    "why_section": {
+      "title": "Warum SA netz?",
+      "content": "Egal, ob Sie Fachkraft oder Institution sind – unsere Expertise, unser globales Netzwerk und unser Engagement für Qualität machen den Unterschied.",
+      "points": [
+        "Individuelle Beratung für Fachkräfte und Einrichtungen.",
+        "Schneller Zugang zu qualifizierten Bewerbern.",
+        "Ganzheitlicher Ansatz: von der Vermittlung bis zur Integration.",
+        "Vertrauenswürdiger Partner mit umfassender Branchenkenntnis."
+      ],
+      "cta": "Jetzt Kontakt aufnehmen"
+    },
+    "explore_opportunities_section": {
+      "title": "Ihre Reise beginnt hier"
+    }
+  }
+}

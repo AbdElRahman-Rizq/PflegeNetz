@@ -1,0 +1,21 @@
+{
+    "title": "Meet Our Team",
+    "content": "A team of experienced professionals in healthcare, recruitment, and international relations dedicated to delivering the best solutions for our partners.",
+    "specialty_label": "Specialty in",
+    "contact_button": "Contact Us",
+    "doctors": [
+      {
+        "name": "Dr. Brent",
+        "specialty": "General & Cosmetic Service",
+        "description": "Dr. Brent provides general and cosmetic dentistry services at Northern Heights Dental in Flagstaff, Arizona. He has extensive experience in general and cosmetic dentistry, including full restoration, implants, wisdom teeth extractions, Invisalign, and dentures. Dr. Brent and his younger sister grew up in Massachusetts with a mother who worked as a hygienist and a grandfather who was a general.",
+        "image": "/images/doctor1.png"
+      },
+      {
+        "name": "Dr. Ashish J. Vashi",
+        "specialty": "Implant Dentistry",
+        "description": "Dr. Brent provides general and cosmetic dentistry services at Northern Heights Dental in Flagstaff, Arizona. He has extensive experience in general and cosmetic dentistry, including full restoration, implants, wisdom teeth extractions, Invisalign, and dentures. Dr. Brent and his younger sister grew up in Massachusetts with a mother who worked as a hygienist and a grandfather who was a general.",
+        "image": "/images/doctor2.png"
+      }
+    ]
+  }
+  

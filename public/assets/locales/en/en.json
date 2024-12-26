@@ -1,0 +1,41 @@
+{
+    "hero_section": {
+        "title": "Professionals. Opportunities. Excellence.",
+        "subtitle": "We connect healthcare professionals from around the world with Germany's top medical institutions.",
+        "cta": "Explore Now"
+    },
+    "key_features_section": {
+        "title": "What SA netz Offers You",
+        "features": [
+            {
+                "title": "Global Talent Network",
+                "description": "Access to an international network of highly qualified healthcare professionals.",
+                "cta": "Our Services"
+            },
+            {
+                "title": "Tailored Solutions",
+                "description": "Tailored approaches for institutions and professionals.",
+                "cta": "For Institutions"
+            },
+            {
+                "title": "Streamlined Processes",
+                "description": "Streamlined processes for fast and sustainable results.",
+                "cta": "About Us"
+            }
+        ]
+    },
+    "call_to_action_section": {
+        "title": "Take Action with SA netz",
+        "description": "Trust our expertise and start your journey with us.",
+        "cta": "Contact Now"
+    },
+    "why_choose_us_section": {
+        "title": "Why Choose SA netz?",
+        "subtitle": "Efficiency, quality, and a global perspective – your advantages at a glance.",
+        "cta": "Learn More"
+    },
+    "faq_section": {
+        "title": "Frequently Asked Questions",
+        "cta": "See All FAQs"
+    }
+}

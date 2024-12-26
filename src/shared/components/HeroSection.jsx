@@ -9,7 +9,9 @@ const HeroSection = ({
   buttonText = "Get Started Now",
   doctorName = "Dr. Shimanta",
   doctorTitle = "Skin Specialist",
+  doctorCta = "Make Schedule",
   img = "/images/doctor3.png",
+
   onSchedule = () => {},
   onGetStarted = () => {},
 }) => {
@@ -46,9 +48,9 @@ const HeroSection = ({
               <p className="text-sm text-gray-500">{doctorTitle}</p>
               <button
                 onClick={onSchedule}
-                className="mt-2 bg-[#00447C] text-white px-4 w-40 py-2 rounded-xl hover:bg-[#00447ce7] transition"
+                className="mt-2 bg-[#00447C] text-white px-2 w-44 py-2 rounded-xl hover:bg-[#00447ce7] transition"
               >
-                Make Schedule
+                {doctorCta}
               </button>
             </div>
           </div>

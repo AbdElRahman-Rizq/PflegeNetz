@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";  // Import the hook
 import SharedButton from "../../shared/components/Button.jsx";
 import TitleWithLine from "../../shared/components/TitleWithLine.jsx";
 import vectorImg from "/assets/images/vector.png";
@@ -6,7 +7,7 @@ import vectorImg from "/assets/images/vector.png";
 // Reusable InfoBox Component
 const InfoBox = ({ icon, title, description }) => {
   return (
-    <div className="flex items-center flex-col text-center gap-4">
+    <div className="flex items-center flex-col text-center gap-4 animations">
       <div className="bg-[#00457C] text-white p-2 rounded-md">
         <span className="text-xl">{icon}</span>
       </div>
@@ -19,46 +20,39 @@ const InfoBox = ({ icon, title, description }) => {
 };
 
 const MedicalInstitutions = () => {
+  const { t } = useTranslation("service"); // Using the translation hook
+
   const infoBoxes = [
     {
       icon: "📩",
-      title: "Recruitment",
-      description:
-        "Placement of international talent, tailored to your specific needs.",
+      title: t("medicalInstitutions.keyServices.0"),  // Translated title
+      description: t("medicalInstitutions.keyServices.1"),  // Translated description
     },
     {
       icon: "✅",
-      title: "Long-term support",
-      description:
-        "Accompanying the specialists throughout the entire integration process.",
+      title: t("medicalInstitutions.keyServices.2"),
+      description: t("medicalInstitutions.keyServices.3"),
     },
     {
       icon: "⚙️",
-      title: "Tailor-made solutions",
-      description:
-        "Adapting our services to the individual needs of your facility.",
+      title: t("medicalInstitutions.keyServices.4"),
+      description: t("medicalInstitutions.keyServices.5"),
     },
     {
       icon: "👥",
-      title: "Optimized processes",
-      description:
-        "Fast and efficient placement through digital and personal approaches.",
+      title: t("medicalInstitutions.keyServices.6"),
+      description: t("medicalInstitutions.keyServices.7"),
     },
   ];
 
   return (
-    <div className="px-10 md:py-10 py-4">
+    <div className="px-10 md:py-10 py-4 animations">
       <div className="bg-blue-50 relative z-0 p-10">
         {/* Header Section */}
         <div className="text-center md:text-left md:ms-12 mb-12">
-          <TitleWithLine
-            text={"For Medical Institutions"}
-            vectorImg={vectorImg}
-          />
+          <TitleWithLine text={t("medicalInstitutions.title")} vectorImg={vectorImg} />
           <p className="text-secondary-700 md:w-[600px] w-full  md:mt-4">
-            We simplify your access to a global pool of highly qualified
-            professionals who not only meet your institution's requirements but
-            also integrate well culturally.
+            {t("medicalInstitutions.content")}
           </p>
         </div>
 
@@ -80,7 +74,7 @@ const MedicalInstitutions = () => {
           <div>
             <img
               src="/images/1a435717888959d2d1915158bee1a377.png"
-              alt="Healthcare Professional"
+              alt={t("imgInfo.healthcareSupportAlt")}
               className="rounded-lg shadow-lg hidden md:block w-[300px] h-[400px]"
             />
           </div>
@@ -100,7 +94,7 @@ const MedicalInstitutions = () => {
 
         {/* Button */}
         <div className="text-center mt-12">
-          <SharedButton href="/" title="For Institutions" />
+          <SharedButton href="/" title={t("medicalInstitutions.ctaButton")} />
         </div>
       </div>
     </div>

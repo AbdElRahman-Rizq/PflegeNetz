@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div>
-      <div className="bg-[#011632] text-white py-16 px-8 flex items-center justify-between">
+      <div className="bg-[#011632] text-white py-16 px-8 flex items-center justify-between animations">
         {/* Left Section */}
         <div className="max-w-md">
           <h2 className="text-4xl font-bold mb-2">Join Our Team</h2>

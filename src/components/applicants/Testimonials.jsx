@@ -10,7 +10,7 @@ const Testimonials = ({
   onButtonClick,
 }) => {
   return (
-    <section className="px-4 py-10 max-w-[1278px] mx-auto md:px-6 lg:px-8">
+    <section className="px-4 py-10 max-w-[1278px] mx-auto md:px-6 lg:px-8 animations">
       {/* Title Section */}
       <Heading title={title} subtitle={subtitle} />
 

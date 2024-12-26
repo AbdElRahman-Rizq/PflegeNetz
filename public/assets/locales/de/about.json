@@ -1,0 +1,53 @@
+{
+  "hero_section": {
+    "title": "Wir verbinden Talente mit Chancen",
+    "subtitle": "SA netz ist Ihr Partner für innovative Lösungen im Gesundheitssektor – kompetent, vertrauenswürdig und international."
+  },
+  "mission_section": {
+    "Ftitle": " ",
+    "Stitle": "Unsere Mission:",
+    "title": " Nachhaltige Verbindungen schaffen",
+    "content": "SA netz wurde mit einer klaren Vision gegründet: die Lücke zwischen medizinischen Fachkräften und deutschen Gesundheitseinrichtungen zu schließen. Wir sind davon überzeugt, dass Zusammenarbeit auf globaler Ebene die beste Lösung für den wachsenden Fachkräftemangel im deutschen Gesundheitswesen ist."
+  },
+  "values_section": {
+    "Ftitle": " ",
+    "Stitle": "Wofür wir stehen",
+    "content": [
+      {
+        "title": "Exzellenz",
+        "description": "Wir streben danach, höchste Standards in allen Bereichen zu erreichen."
+      },
+      {
+        "title": "Vertrauen",
+        "description": "Transparente Kommunikation und Zuverlässigkeit sind die Basis unseres Handelns."
+      },
+      {
+        "title": "Innovation",
+        "description": "Mit modernen Ansätzen und Technologien setzen wir neue Maßstäbe in der Personalvermittlung."
+      },
+      {
+        "title": "Nachhaltigkeit",
+        "description": "Wir schaffen langfristige Verbindungen, die für alle Beteiligten von Nutzen sind."
+      }
+    ]
+  },
+  "story_section": {
+    "Ftitle": " ",
+    "Stitle": "Die Geschichte hinter SA netz ",
+    "title": "",
+    "content": "Unsere Reise begann mit einer einfachen Idee: dem deutschen Gesundheitswesen zu helfen, die besten Talente weltweit zu finden. Mit Erfahrung im internationalen Gesundheitswesen und einem tiefen Verständnis für die Bedürfnisse deutscher Institutionen, haben wir eine Plattform geschaffen, die Vertrauen und Effizienz vereint."
+  },
+  "team_section": {
+    "title": "Treffen Sie unser Team",
+    "content": "Ein Team aus erfahrenen Experten im Gesundheitswesen, Personalwesen und internationalen Beziehungen, das sich dafür einsetzt, die besten Lösungen für unsere Partner zu liefern."
+  },
+  "cta_section": {
+    "title": "Gemeinsam können wir Großes erreichen",
+    "button": "Kontaktieren Sie uns"
+  },
+  "video_section": {
+    "title": "Ein Einblick in unsere Mission",
+    "text": "Entdecken Sie, wie SA netz Leben verändert, Verbindungen schafft und die Zukunft des deutschen Gesundheitswesens prägt. In unserem Video erfahren Sie mehr über unsere Vision, unsere Werte und die Menschen, die hinter unserem Erfolg stehen.",
+    "button": "Video ansehen"
+  }
+}

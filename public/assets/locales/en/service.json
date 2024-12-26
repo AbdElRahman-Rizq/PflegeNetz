@@ -1,0 +1,63 @@
+{
+    "hero": {
+      "title": "Services That Connect",
+      "subtitle": "We offer tailored solutions for healthcare professionals and German medical institutions.",
+      "ctaButton": "Discover Our Services"
+    },
+    "healthcareProfessionals": {
+      "title": "For Healthcare Professionals",
+      "content": "We support you on your journey to Germany’s healthcare system – from the first application to successful integration.",
+      
+            
+    "keyServices": [
+        "Support in the recognition of your medical qualifications.",
+        "Specialized German courses for medical terms.",
+        "Access to attractive job offers in hospitals, clinics, and care facilities.",
+        "Assistance with visa applications, accommodation, and cultural integration."
+    ],
+    "ctaButton": "For Applicants"
+},
+"medicalInstitutions": {
+    "title": "For Medical Institutions",
+    "content": "We simplify your access to a global pool of highly qualified professionals who not only meet your institution's requirements but also integrate well culturally.",
+    "keyServices": [
+        "Global Network",
+        "Comprehensive Training",
+          "Recruitment of international talent tailored to your specific requirements.",
+          "Customized solutions to meet your institution's needs.",
+          "Job Assistance",
+          "Long-term support throughout the integration process.",
+          "Visa Support",
+          "Optimized processes through digital and personal approaches."
+      ],
+      "ctaButton": "For Institutions"
+    },
+    "whyChoose": {
+      "title": "Why Choose SA netz?",
+      "content": "Whether you are a professional or an institution – our expertise, global network, and commitment to quality make the difference.",
+      "points": [
+        "Individual consultation for professionals and institutions.",
+        "Quick access to qualified applicants.",
+        "Holistic approach: from recruitment to integration.",
+        "Trusted partner with extensive industry knowledge."
+      ],
+      "ctaButton": "Contact Us Now"
+    },
+    "exploreOpportunities": {
+      "title": "Your Journey Starts Here",
+      "content": "Find the right support for your needs – whether as a professional or an institution.",
+      "ctaButton": "Discover Opportunities"
+    },
+    "imgInfo": {
+        "forHealthcareProfessionals": "For Healthcare Professionals",
+        "healthcareSupportDescription": "We support you on your journey to Germany's healthcare system – from the first application to successful integration.",
+        "forApplicants": "For Applicants",
+        "healthcareSupportAlt": "Healthcare support",
+        "recognitionSupport": "Support in the recognition of your medical qualifications.",
+        "jobOffersSupport": "Access to attractive job offers in hospitals, clinics, and care facilities.",
+        "visaIntegrationSupport": "Assistance with visa applications, accommodation, and cultural integration.",
+        "germanCoursesSupport": "Specialized German courses for medical terms."
+      }
+      
+  }
+  

@@ -1,0 +1,21 @@
+{
+    "title": "Treffen Sie unser Team",
+    "content": "Ein Team aus erfahrenen Experten im Gesundheitswesen, Personalwesen und internationalen Beziehungen, das sich dafür einsetzt, die besten Lösungen für unsere Partner zu liefern.",
+    "specialty_label": "Spezialisiert auf",
+    "contact_button": "Kontaktieren Sie uns",
+    "doctors": [
+      {
+        "name": "Dr. Brent",
+        "specialty": "Allgemeine und kosmetische Dienstleistungen",
+        "description": "Dr. Brent bietet allgemeine und kosmetische Zahnbehandlungen in der Northern Heights Dental in Flagstaff, Arizona, an. Er verfügt über umfassende Erfahrung in der allgemeinen und kosmetischen Zahnmedizin, einschließlich vollständiger Restaurierung, Implantaten, Weisheitszahnentfernung, Invisalign und Zahnprothesen. Dr. Brent und seine jüngere Schwester sind in Massachusetts mit einer Mutter aufgewachsen, die als Hygienikerin und einem Großvater, der ein General war, gearbeitet hat.",
+        "image": "/images/doctor1.png"
+      },
+      {
+        "name": "Dr. Ashish J. Vashi",
+        "specialty": "Implantatzahnmedizin",
+        "description": "Dr. Brent bietet allgemeine und kosmetische Zahnbehandlungen in der Northern Heights Dental in Flagstaff, Arizona, an. Er verfügt über umfassende Erfahrung in der allgemeinen und kosmetischen Zahnmedizin, einschließlich vollständiger Restaurierung, Implantaten, Weisheitszahnentfernung, Invisalign und Zahnprothesen. Dr. Brent und seine jüngere Schwester sind in Massachusetts mit einer Mutter aufgewachsen, die als Hygienikerin und einem Großvater, der ein General war, gearbeitet hat.",
+        "image": "/images/doctor2.png"
+      }
+    ]
+  }
+  

@@ -1,13 +1,17 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import SharedButton from "../../shared/components/Button.jsx";
 import TitleWithLine from "../../shared/components/TitleWithLine.jsx";
 import vectorImg from "/assets/images/vector.png";
+
 const WhyChooseSA = () => {
+  const { t } = useTranslation("service"); // Using the translation hook
+
   const points = [
-    "Individual advice for professionals and institutions",
-    "Fast access to qualified applicants",
-    "Holistic approach: from mediation to integration",
-    "Trusted partner with comprehensive industry knowledge.",
+    t("whyChoose.points.0"),
+    t("whyChoose.points.1"),
+    t("whyChoose.points.2"),
+    t("whyChoose.points.3"),
   ];
 
   const images = [
@@ -16,13 +20,12 @@ const WhyChooseSA = () => {
   ];
 
   return (
-    <div className="px-10 py-10 ">
+    <div className="px-10 py-10 animations ">
       {/* Header Section */}
-      <div className="text-left mb-8">
-        <TitleWithLine text={"Why Choose SA netz?"} vectorImg={vectorImg} />
+      <div className="md:text-left mb-8 text-center ">
+        <TitleWithLine text={t("whyChoose.title")} vectorImg={vectorImg} />
         <p className="text-secondary-700 md:w-[500px] mt-6">
-          Whether you are a professional or an institution – our expertise,
-          global network, and commitment to quality make the difference.
+          {t("whyChoose.content")}
         </p>
       </div>
 
@@ -40,7 +43,7 @@ const WhyChooseSA = () => {
           ))}
           {/* Button Section */}
           <div className="text-left mt-8">
-            <SharedButton href="/" title="Contact Us Now" />
+            <SharedButton href="/" title={t("whyChoose.ctaButton")} />
           </div>
         </div>
 

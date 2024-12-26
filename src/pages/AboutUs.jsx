@@ -1,3 +1,5 @@
+import React from "react";
+import { useTranslation } from "react-i18next";
 import OurMission from "../components/aboutUs/OurMission.jsx";
 import OurTeam from "../components/aboutUs/OurTeam.jsx";
 import Story from "../components/aboutUs/Story.jsx";
@@ -6,37 +8,46 @@ import Footer from "../components/shared/Footer.jsx";
 import Navbar from "../components/shared/Navbar.jsx";
 import BeforeFooter from "../shared/components/BeforeFooter.jsx";
 import Heading from "../shared/components/HeadingTitle.jsx";
+
 export default function AboutUs() {
+  const { t } = useTranslation("about");
+
   return (
     <>
       <Navbar />
+      {/* Hero Section */}
       <Heading
-        title={"About Us"}
-        subtitle={
-          "SA netz is your partner for innovative solutions in the healthcare sector – competent, reliable, and global."
-        }
+        title={t("hero_section.title")}
+        subtitle={t("hero_section.subtitle")}
       />
+
+      {/* Our Mission Section */}
       <OurMission />
+
+      {/* Our Story Section */}
       <Story />
+
+      {/* Meet the Team Section */}
       <OurTeam />
-      <div className="mb-5">
+
+      {/* Video Section */}
+      <div className="mb-5 space-y-5">
         <Heading
-          title={"A Glimpse Into Our Mission"}
-          subtitle={
-            "Discover how SA netz transforms lives, creates connections, and shapes the future of German healthcare. Our video shares insights into our vision, values, and the people driving our success"
-          }
+          title={t("video_section.title")}
+          subtitle={t("video_section.text")}
         />
         <VideoSection
           videoSrc="/images/doctor1.png"
           altText="SA Netz mission video"
+          buttonText={t("video_section.button")}
         />
       </div>
 
+      {/* CTA Section */}
       <BeforeFooter
-        title={"Join Our Team"}
-        description={"Loem"}
-        buttonText={"Apply"}
-        buttonLink={"/"}
+        title={t("cta_section.title")}
+        buttonText={t("cta_section.button")}
+        buttonLink={"/contactUs"}
         imageSrc={"/images/Group 1000001049.png"}
       />
 

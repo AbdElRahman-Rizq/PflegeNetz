@@ -1,0 +1,80 @@
+{
+  "applicant": {
+    "hero_section": {
+      "title": "Your Path to Germany’s Healthcare Sector",
+      "doctor_title": "Skin Specialist",
+      "subtitle": "SA netz supports you every step of the way – from recognition to integration.",
+      "cta": "Get Started Now",
+      "doctor_cta": "Make Schedule"
+    },
+    "services_section": {
+      "title": "What We Do for You",
+      "content": "We provide comprehensive support to help you start your medical career in Germany.",
+      "key_services": [
+        {
+          "title": "Recognition of Qualifications",
+          "description": "We help you get your medical qualifications recognized."
+        },
+        {
+          "title": "German Language Courses",
+          "description": "Specialized courses to perfect your professional language skills."
+        },
+        {
+          "title": "Job Placement",
+          "description": "Access to attractive positions in hospitals, clinics, and care facilities."
+        },
+        {
+          "title": "Relocation Services",
+          "description": "Support with visa applications, accommodation, and cultural integration."
+        }
+      ],
+      "cta": "Learn More"
+    },
+    "benefits_section": {
+      "title": "Your Benefits with SA netz",
+      "subtitle": "We make your path to Germany’s healthcare system easier and more secure.",
+      "points": [
+        "Personalized Support: Tailored solutions for your career goals.",
+        "Global Network: Access to renowned German healthcare institutions.",
+        "Complete Assistance: From application to arrival – we are by your side."
+      ],
+      "cta": "Apply Now"
+    },
+    "how_it_works_section": {
+      "title": "How It Works",
+      "content": "The process with SA netz is simple and efficient:",
+      "steps": [
+        {
+          "title": "Initial Consultation",
+          "description": "We discuss your goals and evaluate your qualifications."
+        },
+        {
+          "title": "Application",
+          "description": "We assist you in preparing all necessary documents."
+        },
+        {
+          "title": "Job Placement",
+          "description": "You gain access to job opportunities that match your skills."
+        },
+        {
+          "title": "Integration",
+          "description": "We support you upon your arrival in Germany and assist with your integration  ."
+        }
+      ]
+    },
+    "why_section": {
+      "title": "Why Choose SA netz?",
+      "content": "Whether you are a professional or an institution – our expertise, global network, and commitment to quality make the difference.",
+      "points": [
+        "Individual Consultation for professionals and institutions.",
+        "Quick Access to qualified applicants.",
+        "Holistic Approach: from placement to integration.",
+        "Trusted Partner with extensive industry knowledge."
+      ],
+      "cta": "Contact Us Now"
+    },
+    "explore_opportunities_section": {
+      "title": "Your Journey Starts Here"
+    }
+  }
+}

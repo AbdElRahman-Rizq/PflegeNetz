@@ -1,0 +1,41 @@
+{
+    "hero_section": {
+        "title": "Fachkräfte. Möglichkeiten. Exzellenz.",
+        "subtitle": "Wir bringen medizinische Fachkräfte aus aller Welt mit Deutschlands Spitzenmedizin zusammen.",
+        "cta": "Jetzt entdecken"
+    },
+    "key_features_section": {
+        "title": "Was SA netz Ihnen bietet",
+        "features": [
+            {
+                "title": "Globales Talentnetzwerk",
+                "description": "Zugang zu einem internationalen Netzwerk hochqualifizierter medizinischer Fachkräfte.",
+                "cta": "Unsere Dienstleistungen"
+            },
+            {
+                "title": "Maßgeschneiderte Lösungen",
+                "description": "Maßgeschneiderte Ansätze für Institutionen und Fachkräfte.",
+                "cta": "Für Institutionen"
+            },
+            {
+                "title": "Effiziente Prozesse",
+                "description": "Effiziente Abläufe für schnelle und nachhaltige Ergebnisse.",
+                "cta": "Über uns"
+            }
+        ]
+    },
+    "call_to_action_section": {
+        "title": "Werden Sie aktiv mit SA netz",
+        "description": "Vertrauen Sie auf unsere Expertise und starten Sie Ihre Reise mit uns.",
+        "cta": "Jetzt kontaktieren"
+    },
+    "why_choose_us_section": {
+        "title": "Darum sollten Sie SA netz wählen",
+        "subtitle": "Effizienz, Qualität und eine globale Perspektive – Ihre Vorteile auf einen Blick.",
+        "cta": "Mehr erfahren"
+    },
+    "faq_section": {
+        "title": "Häufig gestellte Fragen",
+        "cta": "Alle FAQs ansehen"
+    }
+}

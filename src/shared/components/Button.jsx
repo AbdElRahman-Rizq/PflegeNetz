@@ -10,7 +10,7 @@ const SharedButton = ({
     <a
       href={href}
       className={`${className}`}
-      target="_blank"
+      target="_self"
       rel="noopener noreferrer"
     >
       {title}

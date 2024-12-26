@@ -1,0 +1,99 @@
+{
+    "hero": {
+        "Ftitle": "Fachleute. Möglichkeiten.",
+        "title": "Exzellenz.",
+        "subtitle": "Wir verbinden Gesundheitsfachkräfte aus der ganzen Welt mit den besten medizinischen Einrichtungen Deutschlands.",
+        "cta": "Jetzt erkunden"
+    },
+    "callToAction": {
+        "title": "Handeln Sie mit",
+        "subtitle": "Vertrauen Sie auf unser Fachwissen und beginnen Sie Ihre Reise mit uns.",
+        "placeholder": "Geben Sie Ihre Telefonnummer ein",
+        "button": "Jetzt kontaktieren"
+    },
+    "faq": {
+        "title": "Häufig gestellte Fragen",
+        "subtitle": "Wir verwenden nur die besten Materialien auf dem Markt, um unseren Patienten die besten Produkte anzubieten.",
+        "questions": [
+            {
+                "question": "Kann ich sehen, wer meine E-Mail-Kampagnen liest?",
+                "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+            },
+            {
+                "question": "Bieten Sie Rabatte für gemeinnützige Organisationen an?",
+                "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+            },
+            {
+                "question": "Kann ich sehen, wer meine E-Mail-Kampagnen liest?",
+                "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+            }
+        ]
+    },
+    "futureStart": {
+        "title": "Ihre Zukunft beginnt mit uns",
+        "subtitle": "Mit SA netz wird der Weg zum deutschen Gesundheitssystem einfach und effektiv."
+    },
+    "impactSection": {
+        "title": "Mehr als nur Rekrutierung",
+        "subtitle": "Wir schaffen Verbindungen, die Exzellenz fördern und Leben verändern."
+    },
+    "numbersThatSpeak": {
+        "title": "Zahlen, die für sich sprechen",
+        "description": "Wir arbeiten mit Ihnen zusammen, um individuelle Pflegepläne zu entwickeln, einschließlich der Behandlung chronischer Krankheiten. Wenn wir nicht helfen können, können wir Empfehlungen oder Ratschläge zu den benötigten Fachleuten geben. Wir behandeln alle Anfragen sensibel und vertraulich.",
+        "satisfaction": "Zufriedenheit",
+        "partnersShift": "Partnerwechsel",
+        "successRate": "Erfolgsquote",
+        "crafts": "Handwerke"
+    },
+    "testimonials": {
+        "Ftitle": "Vertrauen ", 
+        "title":"Sie echten Erfahrungen",        
+        "inst_testimonials": {
+        "Ftitle": "Vertrauen ", 
+        "title": "Erfahrungen unserer Partner"},
+        "subtitles": [
+            "SA netz ist der Schlüssel zu unserem Erfolg. Ihre Expertise und Hingabe halfen uns, die besten Fachkräfte anzuziehen.",
+            "Dank SA netz konnte ich meinen Traum verwirklichen, in Deutschland zu arbeiten. Ihre Unterstützung war unübertroffen.",
+            "Mit SA netz war einer der besten Entscheidungen, die wir getroffen haben. Ihre Professionalität ist beeindruckend."
+        ],
+        "button": "Learn More"
+    },
+    "whatWeOffer": {
+        "title": "Was SA netz Ihnen bietet",
+        "services": [
+            {
+                "title": "Globales Talentnetzwerk",
+                "description": "Zugang zu einem internationalen Netzwerk hochqualifizierter Gesundheitsfachkräfte.",
+                "link": "Unsere Dienstleistungen"
+            },
+            {
+                "title": "Maßgeschneiderte Lösungen",
+                "description": "Maßgeschneiderte Ansätze für Institutionen und Fachkräfte.",
+                "link": "Für Institutionen"
+            },
+            {
+                "title": "Optimierte Prozesse",
+                "description": "Optimierte Prozesse für schnelle und nachhaltige Ergebnisse.",
+                "link": "Über uns"
+            }
+        ]
+    },
+    "whyChoose": {
+        "Ftitle": "Warum PflegeNetz",
+        "title": " wählen?",
+        "subtitle": "Wir verwenden nur die besten Materialien und arbeiten mit den besten Ärzten zusammen, um unseren Patienten die besten Produkte anzubieten.",
+        "benefits": [
+            "Es gibt viele globale Netzwerke, die Ihnen zur Verfügung stehen.",
+            "Es ist besser, Ihr Zuhause zu verlassen.",
+            "Schnelle und nachhaltige Ergebnisse",
+            "--Nur ein Platzhalter--"
+        ],
+        "button": "Termin buchen"
+    },
+    "welcoming": {
+        "title": "Willkommen neue Patienten und wir freuen uns darauf, Sie kennenzulernen.",
+        "subtitle": "Wir verwenden nur die beste Qualitätsmaterialien auf dem Markt, um unseren Patienten die besten Produkte anzubieten.",
+        "videoSrc": "/images/doctor1.png",
+        "altText": "SA Netz Mission Video"
+    }
+}

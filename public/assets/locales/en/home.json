@@ -1,0 +1,100 @@
+{
+    "hero": {
+        "Ftitle": "Professionals. Opportunities." ,
+        "title":"Excellence.",
+        "subtitle": "We connect healthcare professionals from around the world with Germany's top medical institutions.",
+        "cta": "Explore Now"
+    },
+    "callToAction": {
+        "title": "Take Action With",
+        "subtitle": "Trust our expertise and start your journey with us.",
+        "placeholder": "Enter your phone number",
+        "button": "Contact Now"
+    },
+    "faq": {
+        "title": "Frequently Ask Question",
+        "subtitle": "We use only the best quality materials on the market in order to provide the best products to our patients.",
+        "questions": [
+            {
+                "question": "Can I see who reads my email campaigns?",
+                "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+            },
+            {
+                "question": "Do you offer non-profit discounts?",
+                "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+            },
+            {
+                "question": "Can I see who reads my email campaigns?",
+                "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+            }
+        ]
+    },
+    "futureStart": {
+        "title": "Your Future Starts with Us",
+        "subtitle": "With SA netz, the path to Germany’s healthcare system becomes simple and effective."
+    },
+    "impactSection": {
+        "title": "More Than Just Recruitment",
+        "subtitle": "We create connections that foster excellence and change lives."
+    },
+    "numbersThatSpeak": {
+        "title": "Numbers That Speak for Themselves",
+        "description": "We will work with you to develop individualised care plans, including management of chronic diseases. If we cannot assist, we can provide referrals or advice about the type of practitioner you require. We treat all enquiries sensitively and in the strictest confidence.",
+        "satisfaction": "Satisfaction Rate",
+        "partnersShift": "Partners Shift",
+        "successRate": "Success Rate",
+        "crafts": "Crafts"
+    },
+    "testimonials": {
+        "Ftitle": "Trust",
+        "title": " Real Experiences",
+        "inst_testimonials": {
+            "Ftitle": "Trust",
+            "title": " Experiences of Our Partners"},
+        "subtitles": [
+            "SA netz is the key to our success. Their expertise and dedication helped us attract the best professionals.",
+            "Thanks to SA netz, I was able to achieve my dream of working in Germany. Their support was unmatched.",
+            "Working with SA netz was one of the best decisions we've made. Their professionalism is impressive."
+        ],
+        "button": "Learn More"
+    },
+        
+    "whatWeOffer": {
+        "title": "What SA netz offers you",
+        "services": [
+            {
+                "title": "Global Talent Network",
+                "description": "Access to an international network of highly qualified healthcare professionals.",
+                "link": "Our Services"
+            },
+            {
+                "title": "Tailored Solutions",
+                "description": "Tailored approaches for institutions and professionals.",
+                "link": "For Institutions"
+            },
+            {
+                "title": "Streamlined Processes",
+                "description": "Streamlined processes for fast and sustainable results.",
+                "link": "About Us"
+            }
+        ]
+    },
+    "whyChoose": {
+        "Ftitle": "Why Choose",
+        "title":" PflegeNetz?",
+        "subtitle": "We use only the best quality materials and deal with best doctors in order to provide the best products to our patients.",
+        "benefits": [
+            "There are many global networks available to you.",
+            "It's better to leave your home.",
+            "Schnelle and nachhaltige Ergebnisse",
+            "--Just a Placeholder--"
+        ],
+        "button": "Book an appointment"
+    },
+    "welcoming": {
+        "title": "Welcoming New Patients And Can’t Wait To Meet You.",
+        "subtitle": "We use only the best quality materials on the market in order to provide the best products to our patients.",
+        "videoSrc": "/images/doctor1.png",
+        "altText": "SA Netz mission video"
+    }
+}

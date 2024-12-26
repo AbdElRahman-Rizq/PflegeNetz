@@ -1,0 +1,79 @@
+{
+    "hero_section": {
+        "Ftitle": "Your Access",
+        "title": "to a Global Talent",
+        "subtitle": "Discover how SA netz helps you recruit highly qualified healthcare professionals efficiently and sustainably.",
+        "cta": "Get Started Now"
+    },
+ "services_section": {
+    "Ftitle": "Our Services",
+    "title": "for Medical Institutions",
+    "content": "SA netz provides tailored solutions to address the staffing shortages in your organization. Our services include:",
+    "key_services": [
+        {
+            "title": "Recruitment",
+            "content": "Access to a global network of qualified professionals who meet your requirements."
+        },
+        {
+            "title": "Integration Management",
+            "content": "Support professionals with language, culture, and administrative processes for seamless team integration."
+        },
+        {
+            "title": "Tailored Solutions",
+            "content": "Each placement is customized to your institution's specific needs."
+        },
+        {
+            "title": "Long-Term Collaboration",
+            "content": "We support you throughout the process – from selection to integration."
+        }
+    ],
+    "cta": "Discover Our Services"
+}
+
+,
+  "why_work_with_us": {
+    "title": "Why SA netz?",
+    "content": "We understand the challenges of the German healthcare sector and provide solutions that truly make a difference:",
+    "points": [
+        {
+            "title": "Reliability",
+            "content": "A partner you can rely on."
+        },
+        {
+            "title": "Efficiency",
+            "content": "Optimized processes for fast and sustainable placement."
+        },
+        {
+            "title": "Excellence",
+            "content": "Access to highly qualified professionals worldwide."
+        },
+        {
+            "title": "Experience",
+            "content": "Extensive industry knowledge and a global network."
+        }
+    ],
+    "cta": "Contact Us"
+}
+,
+    "howItWorks": {
+        "title": "How It Works",
+        "content": "SA netz makes recruiting international professionals simple and effective",
+        "steps": [
+            "Needs Analysis: We discuss your requirements and create a customized recruitment profile.",
+            "Candidate Selection: You get access to a selection of highly qualified professionals.",
+            "Integration: We support professionals with their integration into your team and handle administrative processes.",
+            "Sustainable Support: Long-term assistance to ensure the success of your new employees."
+        ],
+        "cta": "Get Started Now"
+    },
+    "testimonials": {
+        "Ftitle": "Trust",
+        "title": "Experiences of Our Partners",
+        "button": "Learn More"
+    },
+    "partner_with_us": {
+        "title": "Together, We Can Achieve More",
+        "content": "Rely on our expertise and start a partnership that will revolutionize your staffing strategy.",
+        "cta": "Contact Us Now"
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "faq": {
+    "title": "Frequently Ask Question",
+        "subtitle": "We use only the best quality materials on the market in order to provide the best products to our patients.",
+        "buttonText": "See All FAQs",
+    "faqs": {
+        "questions":[
+      {
+        "question": "How can I get my medical qualifications recognized in Germany?",
+        "answer": "We assist you in verifying and submitting your documents for the recognition of your medical qualifications in Germany."
+      },
+      {
+        "question": "Do I need German language skills to work in Germany?",
+        "answer": "Basic German language skills, especially medical terminology, are essential. We offer specialized language courses to prepare you comprehensively."
+      },
+      {
+        "question": "How does SA netz support me in finding a job?",
+        "answer": "We connect you with renowned hospitals, clinics, and healthcare facilities that match your qualifications and career goals."
+      },
+      {
+        "question": "Does SA netz provide support for visas and relocation?",
+        "answer": "Yes, we assist you in applying for a work visa and support you in finding accommodation and handling other administrative tasks."
+      },
+      {
+        "question": "Are there any costs for SA netz services?",
+        "answer": "We provide transparent pricing and explain all fees in advance. In many cases, employers cover the costs."
+      },
+      {
+        "question": "How does SA netz help with integration in Germany?",
+        "answer": "We provide cultural orientation, help you settle into your new environment, and ensure you feel comfortable at your workplace."
+      },
+      {
+        "question": "How do I start the application process with SA netz?",
+        "answer": "You can apply through our online form. Our team will contact you to discuss your needs and qualifications."
+      },
+      {
+        "question": "Do I need work experience to apply?",
+        "answer": "Requirements vary depending on the position. We help you find the right job based on your experience and qualifications."
+      },
+      {
+        "question": "Does SA netz provide support after placement?",
+        "answer": "Yes, we continue to support you during the integration phase to ensure your success in your new role."
+      },
+      {
+        "question": "Are career opportunities and training offered?",
+        "answer": "We assist you in advancing your career through training and new opportunities."
+      },
+      {
+        "question": "What are the salary ranges for healthcare professionals in Germany?",
+        "answer": "Salaries vary based on position, qualifications, and region. We provide detailed information about salary expectations for your role."
+      },
+      {
+        "question": "What documents do I need to apply?",
+        "answer": "Common documents include a resume, educational certificates, references, and language certificates. Our team helps you prepare your documents."
+      },
+      {
+        "question": "How long does it take to move to Germany?",
+        "answer": "The time depends on recognizing your qualifications, visa application, and job availability. It typically takes 3–6 months."
+      },
+      {
+        "question": "Can my family join me in Germany?",
+        "answer": "Yes, we assist with family reunification visas and organizing your family's relocation."
+      },
+      {
+        "question": "Do I need a work permit to work in Germany?",
+        "answer": "Yes, a work permit is required. We guide you through the application process and ensure all documents are in order."
+      },
+      {
+        "question": "Does Germany offer opportunities for specialization or further education?",
+        "answer": "Yes, Germany provides numerous opportunities for further education and specialization in various medical fields."
+      },
+      {
+        "question": "Does SA netz assist with finding accommodation?",
+        "answer": "We help you find suitable accommodations near your workplace and simplify the relocation process."
+      },
+      {
+        "question": "What career opportunities are available for international healthcare professionals in Germany?",
+        "answer": "Germany offers numerous opportunities, including hospital positions, research, and private practices. We guide you to the best career option."
+      },
+      {
+        "question": "Do I need a specific language level to work in Germany?",
+        "answer": "Yes, typically a B2 level in German is required. We support you in achieving this level."
+      },
+      {
+        "question": "What happens if I face challenges after starting work?",
+        "answer": "Our team continues to support you and helps you overcome challenges in your new work environment."
+      }
+    ]}
+  }
+}

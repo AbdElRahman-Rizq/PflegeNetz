@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../../../public/images/logo.png";
+import logo from "/images/logo.png";
 import {
   FaFacebookF,
   FaInstagram,
@@ -8,9 +8,12 @@ import {
   FaYoutube,
   FaTwitter,
 } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
   const location = useLocation();
+  const { t } = useTranslation('navbar');
+  
 
   const isActive = (path) => location.pathname === path;
 
@@ -19,17 +22,22 @@ export default function Footer() {
       {/* Footer Content */}
       <div className="container flex flex-col md:flex-row justify-between items-center">
         {/* Logo */}
-        <img src={logo} alt="Logo" className="h-8 mb-4 md:mb-0" />
+        <img src={logo} alt="Logo" className="h-6 mb-4 md:mb-0" />
 
         {/* Navigation Links */}
         <ul className="flex flex-wrap justify-center space-x-4 md:space-x-6 text-custom-950 mb-4 md:mb-0">
           {[
-            { path: "/", label: "Home" },
-            { path: "/about-us", label: "About" },
-            { path: "/services", label: "Services" },
-            { path: "/institution", label: "For Companies" },
-            { path: "/applicants", label: "For Applicants" },
-            { path: "/contactus", label: "Contact" },
+            { path: "/", label: t('navbar.home') },
+            { path: "/about-us", label: t('navbar.about') },
+            { path: "/services", label: t('navbar.services') },
+            { path: "/institution", label: t('navbar.forInstitution') },
+            { path: "/applicants", label: t('navbar.forApplicants') },
+            { path: "/contactus", label: t('navbar.contact') },
+
+            { path: "/cookies", label: "Cookies" },
+            { path: "/terms_conditions", label: "Terms & Conditions" },
+            { path: "/privacy_policy", label: "Privacy & Policy" },
+            { path: "/imprint", label: "Imprint" },
           ].map(({ path, label }) => (
             <li key={path}>
               <Link
@@ -54,7 +62,7 @@ export default function Footer() {
         <p className="text-sm text-custom-900 text-center md:text-left">
           All rights reserved © FutTech GmbH |{" "}
           <Link to="/terms" className="hover:underline">
-            Terms and conditions apply!
+            {t('footer.contactUs')}
           </Link>
         </p>
 

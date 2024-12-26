@@ -1,0 +1,79 @@
+{
+    "hero_section": {
+        "Ftitle": "Ihr Zugang",
+        "title": "zu globalen Talenten",
+        "subtitle": "Erfahren Sie, wie SA netz Ihnen hilft, hochqualifizierte medizinische Fachkräfte effizient und nachhaltig zu rekrutieren.",
+        "cta": "Jetzt starten"
+    },
+ "services_section": {
+    "Ftitle": "Unsere Leistungen",
+    "title": "für Gesundheitseinrichtungen",
+    "content": "SA netz bietet Ihnen maßgeschneiderte Lösungen, um den Fachkräftemangel in Ihrem Haus zu bewältigen. Unser Service umfasst:",
+    "key_services": [
+        {
+            "title": "Rekrutierung",
+            "content": "Zugang zu einem globalen Netzwerk qualifizierter Fachkräfte, die Ihren Anforderungen entsprechen."
+        },
+        {
+            "title": "Integrationsmanagement",
+            "content": "Unterstützung der Fachkräfte bei Sprache, Kultur und administrativen Prozessen, um eine nahtlose Eingliederung in Ihr Team zu gewährleisten."
+        },
+        {
+            "title": "Maßgeschneiderte Lösungen",
+            "content": "Jede Vermittlung wird individuell auf die Bedürfnisse Ihrer Einrichtung abgestimmt."
+        },
+        {
+            "title": "Langfristige Zusammenarbeit",
+            "content": "Wir begleiten Sie über den gesamten Prozess hinweg – von der Auswahl bis zur Integration."
+        }
+    ],
+    "cta": "Unsere Leistungen entdecken"
+}
+
+,
+   "why_work_with_us": {
+    "title": "Warum SA netz?",
+    "content": "Wir verstehen die Herausforderungen des deutschen Gesundheitswesens und bieten Lösungen, die einen echten Unterschied machen:",
+    "points": [
+        {
+            "title": "Zuverlässigkeit",
+            "content": "Ein Partner, auf den Sie sich verlassen können."
+        },
+        {
+            "title": "Effizienz",
+            "content": "Optimierte Prozesse für eine schnelle und nachhaltige Vermittlung."
+        },
+        {
+            "title": "Exzellenz",
+            "content": "Zugang zu hochqualifizierten Fachkräften weltweit."
+        },
+        {
+            "title": "Erfahrung",
+            "content": "Umfassende Branchenkenntnis und ein globales Netzwerk."
+        }
+    ],
+    "cta": "Kontaktieren Sie uns"
+}
+,
+    "howItWorks": {
+        "title": "So funktioniert es",
+        "content": "SA netz macht die Rekrutierung internationaler Fachkräfte einfach und effektiv",
+        "steps": [
+            "Bedarfsanalyse: Wir besprechen Ihre Anforderungen und erstellen ein maßgeschneidertes Rekrutierungsprofil.",
+            "Kandidatenauswahl: Sie erhalten Zugang zu einer Auswahl hochqualifizierter Fachkräfte.",
+            "Integration: Wir unterstützen die Fachkräfte bei der Eingliederung in Ihr Team und die Bearbeitung administrativer Prozesse.",
+            "Nachhaltige Betreuung: Langfristige Unterstützung, um den Erfolg Ihrer neuen Mitarbeiter zu gewährleisten."
+        ],
+        "cta": "Jetzt starten"
+    },
+    "testimonials": {
+        "Ftitle": "Vertrauen",
+        "title": "Erfahrungen unserer Partner",
+        "button":"Mehr erfahren."
+    },
+    "partner_with_us": {
+        "title": "Zusammen können wir mehr erreichen",
+        "content": "Vertrauen Sie auf unsere Expertise und starten Sie eine Partnerschaft, die Ihre Personalstrategie revolutioniert.",
+        "cta": "Jetzt Kontakt aufnehmen"
+    }
+}

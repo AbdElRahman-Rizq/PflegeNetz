@@ -2,17 +2,16 @@ import whyChooseImg from "/assets/images/whyChoose.png";
 import vectorImg from "/assets/images/vector.png";
 import shieldDoneImg from "/assets/images/Shield Done.png";
 import TitleWithLine from "../../shared/components/TitleWithLine.jsx";
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const WhyChooseSection = () => {
-  const benefits = [
-    { id: 1, text: "There are many global networks available to you." },
-    { id: 2, text: "It's better to leave your home." },
-    { id: 3, text: "Schnelle and nachhaltige Ergebnisse" },
-    { id: 4, text: "--Just a Placeholder--" },
-  ];
+  const { t } = useTranslation("home");
+
+  const benefits = t("whyChoose.benefits", { returnObjects: true });
 
   return (
-    <section className="bg-custom-50 py-8 mx-8  md:py-16 px-4 min-h-[400px] md:h-[554px] relative">
+    <section className="bg-custom-50 py-8 mx-8 md:py-16 px-4 min-h-[400px] md:h-[554px] relative animations">
       <div className="w-full max-w-[1280px] mx-auto flex flex-col md:flex-row items-center gap-6 md:gap-10">
         {/* Image */}
         <div className="w-full md:w-1/2">
@@ -25,10 +24,10 @@ const WhyChooseSection = () => {
 
         {/* Content */}
         <div className="w-full md:w-1/2 space-y-4 md:space-y-6 text-center md:text-left">
-          <h2 className="text-3xl md:text-4xl  font-bold text-navy-900">
-            Why Choose{" "}
+          <h2 className="text-3xl md:text-4xl font-bold text-navy-900">
+            {t("whyChoose.Ftitle")}
             <span className="relative ">
-              PflegeNetz
+              {t("whyChoose.title")}
               <img
                 src={vectorImg}
                 alt=""
@@ -36,32 +35,30 @@ const WhyChooseSection = () => {
               />
             </span>
             <br />
-            For All Your Treatments?
+            
           </h2>
 
           <p className="text-gray-700">
-            We use only the best quality materials and deal with best doctors in
-            order to provide the best products to our patients.
+            {t("whyChoose.subtitle")}
           </p>
 
           <ul className="md:space-y-4 space-y-2">
-            {benefits.map((benefit) => (
+            {benefits.map((benefit, index) => (
               <li
-                key={benefit.id}
-                className="flex md:items-center text-left  gap-3"
+                key={index}
+                className="flex md:items-center text-left gap-3"
               >
                 <img
                   src={shieldDoneImg}
                   alt="Shield check"
                   className="w-5 h-5"
                 />
-                <span className="text-gray-700">{benefit.text}</span>
+                <span className="text-gray-700">{benefit}</span>
               </li>
             ))}
           </ul>
-
-          <button className="bg-[#9CC93B] hover:bg-[#8BB82D] text-white px-8 py-3 rounded-md transition duration-300">
-            Book an appointment
+          <button className="bg-[#9CC93B] hover:bg-[#8BB82D] text-white px-8 py-3 rounded-md transition duration-300 no-underline">
+            <Link to="/about-us">{t("whyChoose.button")}</Link>
           </button>
         </div>
       </div>
