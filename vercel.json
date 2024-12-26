@@ -1,0 +1,13 @@
+{
+    "rewrites": [
+      {
+        "source": "/:locale(en|de)/(.*)",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ]
+  }
+  

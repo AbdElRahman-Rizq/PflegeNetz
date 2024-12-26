@@ -2,6 +2,14 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import Backend from "i18next-http-backend";
 
+// Get the base URL dynamically for Vercel and local environments
+const getBaseURL = () => {
+  if (typeof window !== "undefined") {
+    return window.location.origin;
+  }
+  return "/";
+};
+
 const savedLanguage = localStorage.getItem("language") || "de";
 
 i18n
@@ -10,11 +18,11 @@ i18n
   .init({
     lng: savedLanguage, 
     fallbackLng: "en",
-    supportedLngs: ["en_institution", "de_institution", "en", "de"],
+    supportedLngs: ["en", "de"],
     ns: ["en", "de"],
     defaultNS: "de",
     backend: {
-      loadPath: "/assets/locales/{{lng}}/{{ns}}.json",
+      loadPath: `${getBaseURL()}/assets/locales/{{lng}}/{{ns}}.json`, // Dynamic base URL
     },
     interpolation: {
       escapeValue: false,
